@@ -1,0 +1,249 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nord Home — интернет-магазин современной мебели для дома. Диваны, кресла, столы и системы хранения.">
+    <title>Nord Home — интернет-магазин мебели</title>
+</head>
+<body>
+
+    <!-- HEADER: вводная часть сайта с названием магазина и контактной информацией. -->
+    <header>
+        <h1>Nord Home</h1>
+        <p>Мебель, которая делает дом уютнее</p>
+
+        <address>
+            Телефон:
+            <a href="tel:+78005553535">8 (800) 555-35-35</a>
+            <br>
+            Электронная почта:
+            <a href="mailto:info@nordhome.example">info@nordhome.example</a>
+        </address>
+    </header>
+
+    <!-- NAV: основная навигация по разделам интернет-магазина. -->
+    <nav aria-label="Основная навигация">
+        <ul>
+            <li><a href="#home">Главная</a></li>
+            <li><a href="#catalog">Каталог</a></li>
+            <li><a href="#offers">Акции</a></li>
+            <li><a href="#delivery">Доставка и оплата</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+        </ul>
+    </nav>
+
+    <!-- MAIN: основное уникальное содержимое данной страницы. -->
+    <main>
+
+        <!-- SECTION: самостоятельный тематический раздел с приветствием. -->
+        <section id="home" aria-labelledby="welcome-title">
+            <header>
+                <h2 id="welcome-title">Создайте дом своей мечты</h2>
+                <p>Современная мебель для комфорта и вдохновения.</p>
+            </header>
+
+            <p>
+                В Nord Home вы найдёте мебель, которая сочетает
+                функциональность, качество и лаконичный дизайн.
+            </p>
+
+            <p>
+                <a href="#catalog">Перейти в каталог</a>
+            </p>
+        </section>
+
+        <!-- SECTION: тематический раздел с товарами магазина. -->
+        <section id="catalog" aria-labelledby="catalog-title">
+            <h2 id="catalog-title">Популярные товары</h2>
+
+            <!-- ARTICLE: отдельная карточка товара, которую можно
+                 рассматривать независимо от остальных товаров. -->
+            <article>
+                <header>
+                    <h3>Диван Nordic</h3>
+                    <p>Артикул: NH-001</p>
+                </header>
+
+                <!-- FIGURE объединяет изображение товара и его подпись. -->
+                <figure>
+                    <img
+                        src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&amp;fit=crop&amp;w=600&amp;q=80"
+                        alt="Современный диван в уютной гостиной"
+                        width="400"
+                    >
+                    <figcaption>Диван Nordic — комфорт и минимализм.</figcaption>
+                </figure>
+
+                <p>Мягкий диван для гостиной в скандинавском стиле.</p>
+                <p>Цена: <strong>59 990 ₽</strong></p>
+                <p><a href="mailto:info@nordhome.example?subject=Диван%20Nordic">Уточнить наличие</a></p>
+
+                <footer>
+                    <p>Гарантия производителя — 2 года.</p>
+                </footer>
+            </article>
+
+            <article>
+                <header>
+                    <h3>Кресло Loft</h3>
+                    <p>Артикул: NH-002</p>
+                </header>
+
+                <figure>
+                    <img
+                        src="https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&amp;fit=crop&amp;w=600&amp;q=80"
+                        alt="Дизайнерское кресло для зоны отдыха"
+                        width="400"
+                    >
+                    <figcaption>Кресло Loft — место для отдыха.</figcaption>
+                </figure>
+
+                <p>Удобное кресло для чтения, отдыха и работы.</p>
+                <p>Цена: <strong>24 990 ₽</strong></p>
+                <p><a href="mailto:info@nordhome.example?subject=Кресло%20Loft">Уточнить наличие</a></p>
+
+                <footer>
+                    <p>Доступно в нескольких вариантах обивки.</p>
+                </footer>
+            </article>
+
+            <article>
+                <header>
+                    <h3>Журнальный стол Oak</h3>
+                    <p>Артикул: NH-003</p>
+                </header>
+
+                <figure>
+                    <img
+                        src="https://images.unsplash.com/photo-1499933374294-4584851497cc?auto=format&amp;fit=crop&amp;w=600&amp;q=80"
+                        alt="Деревянный стол в современном интерьере"
+                        width="400"
+                    >
+                    <figcaption>Стол Oak — натуральные оттенки дерева.</figcaption>
+                </figure>
+
+                <p>Компактный стол для гостиной из дерева.</p>
+                <p>Цена: <strong>12 490 ₽</strong></p>
+                <p><a href="mailto:info@nordhome.example?subject=Стол%20Oak">Уточнить наличие</a></p>
+
+                <footer>
+                    <p>Подходит для современных интерьеров.</p>
+                </footer>
+            </article>
+        </section>
+
+        <!-- SECTION: информация об актуальных предложениях магазина. -->
+        <section id="offers" aria-labelledby="offers-title">
+            <h2 id="offers-title">Специальные предложения</h2>
+
+            <article>
+                <h3>Скидка на мебель для гостиной</h3>
+                <p>
+                    Выбирайте мебель для дома и воспользуйтесь
+                    специальными предложениями магазина.
+                </p>
+                <p>Условия акции уточняйте у менеджера.</p>
+            </article>
+        </section>
+
+        <!-- ASIDE: дополнительная информация, связанная с выбором мебели,
+             но не являющаяся основной частью каталога. -->
+        <aside aria-labelledby="tips-title">
+            <h2 id="tips-title">Советы покупателям</h2>
+            <p>
+                Перед покупкой измерьте помещение, проверьте размеры мебели
+                и убедитесь, что она подходит к вашему интерьеру.
+            </p>
+            <p>
+                Для небольших комнат выбирайте многофункциональную мебель
+                и модели с дополнительными местами для хранения.
+            </p>
+        </aside>
+
+        <!-- SECTION: отдельный тематический раздел о доставке и оплате. -->
+        <section id="delivery" aria-labelledby="delivery-title">
+            <h2 id="delivery-title">Доставка и оплата</h2>
+
+            <article>
+                <h3>Доставка</h3>
+                <p>
+                    Доставка мебели осуществляется по согласованию
+                    с покупателем. Сроки и стоимость зависят от адреса.
+                </p>
+            </article>
+
+            <article>
+                <h3>Оплата</h3>
+                <p>
+                    Доступные способы оплаты и условия покупки
+                    можно уточнить у менеджера магазина.
+                </p>
+            </article>
+        </section>
+
+        <!-- SECTION: часто задаваемые вопросы. -->
+        <section id="faq" aria-labelledby="faq-title">
+            <h2 id="faq-title">Часто задаваемые вопросы</h2>
+
+            <!-- DETAILS создаёт раскрывающийся блок,
+                 SUMMARY содержит его видимый заголовок. -->
+            <details>
+                <summary>Как узнать размеры товара?</summary>
+                <p>
+                    Характеристики и размеры конкретной модели
+                    можно запросить у консультанта магазина.
+                </p>
+            </details>
+
+            <details>
+                <summary>Можно ли заказать несколько товаров?</summary>
+                <p>
+                    Да, условия оформления заказа на несколько товаров
+                    можно согласовать с менеджером.
+                </p>
+            </details>
+
+            <details>
+                <summary>Как связаться с магазином?</summary>
+                <p>
+                    Позвоните по телефону или отправьте письмо
+                    на электронную почту, указанную в шапке сайта.
+                </p>
+            </details>
+        </section>
+
+        <!-- SECTION: контактная информация магазина. -->
+        <section id="contacts" aria-labelledby="contacts-title">
+            <h2 id="contacts-title">Наши контакты</h2>
+
+            <address>
+                Интернет-магазин Nord Home<br>
+                Телефон: <a href="tel:+78005553535">8 (800) 555-35-35</a><br>
+                Email: <a href="mailto:info@nordhome.example">info@nordhome.example</a>
+            </address>
+
+            <p>
+                Время работы:
+                <time datetime="2026-01-01T10:00">10:00</time>
+                –
+                <time datetime="2026-01-01T20:00">20:00</time>,
+                ежедневно.
+            </p>
+        </section>
+
+    </main>
+
+    <!-- FOOTER: заключительная часть сайта с авторскими правами
+         и ссылками на дополнительные сведения. -->
+    <footer>
+        <p>&copy; 2026 Nord Home. Все права защищены.</p>
+        <p>Учебный проект по дисциплине HTML/CSS.</p>
+        <p>
+            <a href="#home">Вернуться в начало страницы</a>
+        </p>
+    </footer>
+
+</body>
+</html>
